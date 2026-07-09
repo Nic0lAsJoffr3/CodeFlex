@@ -28,10 +28,10 @@ Ensinar programação gratuitamente.
 ## Documentação
 
 1. [Visão Geral](./docs/01-visao-geral.md)
-
+2. [Requisitos](./docs/02-requisitos.md)
 
 ## Licença
 
-- [Content License](./CONTENT_LICENSE.md)  
-- [Software License](./LICENSE.md)
+- [Content License](./LICENSE/CONTENT_LICENSE.md)  
+- [Software License](./LICENSE/LICENSE.md)
 
