@@ -27,8 +27,14 @@ Ensinar programação gratuitamente.
 
 ## Documentação
 
+0. [Registro De Atividades](./docs/00-registro-de-atividades.md)
+
 1. [Visão Geral](./docs/01-visao-geral.md)
 2. [Requisitos](./docs/02-requisitos.md)
+2. [Regras De Negocio](./docs/03-regras-de-negocio.md)
+2. [Casos De Uso](./docs/04-casos-de-uso.md)
+2. [Fluxo De Navegação](./docs/05-fluxo-de-navegacao.md)
+2. [Arrquitetura](./docs/06-arquitetura.md)
 
 ## Licença
 
