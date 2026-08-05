@@ -31,10 +31,12 @@ Ensinar programação gratuitamente.
 
 1. [Visão Geral](./docs/01-visao-geral.md)
 2. [Requisitos](./docs/02-requisitos.md)
-2. [Regras De Negocio](./docs/03-regras-de-negocio.md)
-2. [Casos De Uso](./docs/04-casos-de-uso.md)
-2. [Fluxo De Navegação](./docs/05-fluxo-de-navegacao.md)
-2. [Arrquitetura](./docs/06-arquitetura.md)
+3. [Regras De Negocio](./docs/03-regras-de-negocio.md)
+4. [Casos De Uso](./docs/04-casos-de-uso.md)
+5. [Fluxo De Navegação](./docs/05-fluxo-de-navegacao.md)
+6. [Arquitetura](./docs/06-arquitetura.md)
+7. [Modelo De Dados](./docs/06-arquitetura.md)
+8. [Tecnologias](./docs/06-arquitetura.md)
 
 ## Licença
 
