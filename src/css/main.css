@@ -1,0 +1,104 @@
+@layer reset, layout, base, responsive;
+
+:root {
+    --GreenColor-main: #00ff15;
+    --OrangeColor-main: #ff7b00;
+
+    --bg-primary: #0D1117;
+    --bg-secondary: #161B22;
+    --bg-tertiary: #21262D;
+
+
+    --text-primary: #F0F6FC;
+    --text-secondary: #B1BAC4;
+    --text-tertiary: #8B949E;
+    --text-muted: #6E7681;
+
+    --font-size-xs: 12px;
+    --font-size-sm: 14px;
+    --font-size-md: 16px;
+    --font-size-lg: 18px;
+
+    --font-size-xl: 20px;
+    --font-size-2xl: 24px;
+    --font-size-3xl: 30px;
+    --font-size-4xl: 36px;
+    --font-size-5xl: 48px;
+
+}
+
+@layer reset {
+    * {
+        margin: 0;
+    }
+
+    body,
+    html {
+        padding: 0;
+        height: 300vh;
+        scrollbar-width: none;
+    }
+
+    * {
+        color: var(--text-secondary);
+    }
+}
+
+@layer layout {
+    .Header {
+        background-color: red;
+        height: 150px;
+
+
+    }
+
+    .TitleLogo {
+        height: 150px;
+        width: 100vw;
+    }
+
+    
+}
+
+@layer base {
+    body {
+        background-color: var(--bg-primary);
+    }
+
+    .Header {
+        background-color: var(--bg-secondary);
+    }
+
+    .TitleLogo {
+        image-rendering: pixelated;
+        image-rendering: crisp-edges;
+    }
+
+    .Title {
+        overflow: hidden;
+        white-space: nowrap;
+        animation: Title 2s ease-in-out 0s;
+
+        font-size: var(--font-size-2xl);
+    }
+
+    h1,
+    h2,
+    h3 {
+        color: var(--text-primary);
+    }
+
+}
+
+
+
+
+@keyframes Title {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100vw;
+    }
+}

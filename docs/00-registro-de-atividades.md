@@ -13,7 +13,7 @@ Este documento registra as principais atividades realizadas durante o desenvolvi
 | Data | Atividades realizadas | Horas |
 |---|---|---:|
 | 09/07/2026 | Planejamento do projeto, definição da proposta do CodeFlex, escolha do nome, criação do repositório, organização da estrutura inicial, criação da documentação, definição dos requisitos, regras de negócio, casos de uso, fluxo de navegação e arquitetura inicial da aplicação. | 10 |
-
+| 05/08/2026 | Continuação do planejamento do projeto, definição da identidade visual, criação da logomarca, desenvolvimento de ideias para a página inicial, elaboração do modelo de dados e definição das tecnologias que serão utilizadas na aplicação. | 5 |
 ---
 
 # Total de Horas
@@ -21,7 +21,8 @@ Este documento registra as principais atividades realizadas durante o desenvolvi
 | Período | Horas |
 |---|---:|
 | 09/07/2026 | 10 |
-| **Total** | **10** |
+| 05/08/2026 | 5 |
+| **Total** | **15** |
 
 ---
 

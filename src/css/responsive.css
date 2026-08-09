@@ -1,0 +1,60 @@
+@layer responsive {
+
+    .PcOnly {
+        display: none;
+    }
+
+    /* Celulares grandes  */
+    @media screen and (min-width: 480px) {
+
+        .Header,
+        .TitleLogo {
+            height: 225px;
+        }
+
+        .TitleLogo {
+            width: 480px;
+        }
+        .Title{
+            font-size: var(--font-size-3xl);
+        }
+    }
+
+    /* Tablets */
+    @media screen and (min-width: 768px) {
+        
+        .Title{
+            font-size: var(--font-size-4xl);
+        }
+    }
+
+    /* Laptops pequenos */
+    @media screen and (min-width: 1024px) {
+        .MobileOnly {
+            display: none;
+        }
+
+        .PcOnly {
+            display: block;
+        }
+    }
+
+    /* Desktops */
+    @media screen and (min-width: 1280px) {
+
+        .Header,
+        .TitleLogo {
+            height: 250px;
+        }
+    }
+
+    /* Monitores grandes */
+    @media screen and (min-width: 1536px) {}
+
+    /* UltraWide */
+    @media screen and (min-width: 1920px) {
+        .Header {
+            height: 275px;
+        }
+    }
+}
