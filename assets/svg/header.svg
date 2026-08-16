@@ -1,0 +1,184 @@
+<svg
+    class="SVGBG"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 2400 500"
+    preserveAspectRatio="none"
+    aria-hidden="true"
+>
+    <g
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    >
+        <path d="M0 420 H120 L190 350 H390 L460 280 H650" />
+        <path d="M80 180 H250 L330 100 H520 L590 170 H760" />
+        <path d="M430 500 V400 L510 320 V220 L600 130 H780" />
+
+        <path d="M650 430 H820 L900 350 H1080 L1170 260 H1360" />
+        <path d="M760 80 H940 L1010 150 H1190 L1280 60 H1460" />
+        <path d="M970 500 V410 L1060 320 V210 H1240" />
+
+        <path d="M1270 390 H1430 L1510 310 H1690 L1770 230 H1960" />
+        <path d="M1390 90 H1550 L1630 160 H1810 L1900 70 H2110" />
+        <path d="M1580 500 V400 L1660 320 V210 H1840" />
+
+        <path d="M1880 420 H2020 L2100 340 H2280 L2360 260 H2400" />
+        <path d="M2030 120 H2180 L2250 50 H2400" />
+    </g>
+
+    <g
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        opacity=".7"
+    >
+        <path d="M20 300 H150 L220 230 H370" />
+        <path d="M270 500 V430 L340 360" />
+        <path d="M380 210 H470 L540 140" />
+
+        <path d="M580 500 V450 L690 340" />
+        <path d="M700 250 H850 L920 180" />
+        <path d="M820 20 V90 L900 170" />
+
+        <path d="M1040 450 H1140 L1220 370" />
+        <path d="M1120 100 H1200 L1270 30" />
+        <path d="M1300 500 V440 L1380 360" />
+
+        <path d="M1450 220 H1530 L1600 150" />
+        <path d="M1520 470 H1610 L1680 400" />
+        <path d="M1740 100 H1830 L1900 30" />
+
+        <path d="M1840 500 V440 L1930 350" />
+        <path d="M1980 190 H2070 L2140 120" />
+        <path d="M2180 500 V420 L2260 340" />
+    </g>
+
+    <g
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1"
+        stroke-linecap="round"
+        opacity=".5"
+    >
+        <path d="M190 350 V290 L250 230" />
+        <path d="M330 100 V40" />
+        <path d="M460 280 V210 L520 150" />
+
+        <path d="M510 320 H580 L630 270" />
+        <path d="M650 430 V370 L700 320" />
+        <path d="M900 350 V290 L950 240" />
+
+        <path d="M1010 150 V80" />
+        <path d="M1170 260 V190 L1230 130" />
+        <path d="M1280 60 V20" />
+
+        <path d="M1510 310 V250 L1560 200" />
+        <path d="M1630 160 V100" />
+        <path d="M1770 230 V170 L1830 110" />
+
+        <path d="M2100 340 V280 L2150 230" />
+        <path d="M2250 50 V100" />
+        <path d="M2360 260 V200" />
+    </g>
+
+    <g fill="var(--svg-node)">
+        <circle cx="120" cy="420" r="5" />
+        <circle cx="190" cy="350" r="5" />
+        <circle cx="390" cy="350" r="5" />
+        <circle cx="460" cy="280" r="5" />
+        <circle cx="650" cy="280" r="5" />
+
+        <circle cx="250" cy="180" r="5" />
+        <circle cx="330" cy="100" r="5" />
+        <circle cx="520" cy="100" r="5" />
+        <circle cx="590" cy="170" r="5" />
+
+        <circle cx="510" cy="320" r="5" />
+        <circle cx="820" cy="430" r="5" />
+        <circle cx="900" cy="350" r="5" />
+        <circle cx="1080" cy="350" r="5" />
+        <circle cx="1170" cy="260" r="5" />
+
+        <circle cx="940" cy="80" r="5" />
+        <circle cx="1010" cy="150" r="5" />
+        <circle cx="1190" cy="150" r="5" />
+        <circle cx="1280" cy="60" r="5" />
+
+        <circle cx="1430" cy="390" r="5" />
+        <circle cx="1510" cy="310" r="5" />
+        <circle cx="1690" cy="310" r="5" />
+        <circle cx="1770" cy="230" r="5" />
+
+        <circle cx="1550" cy="90" r="5" />
+        <circle cx="1630" cy="160" r="5" />
+        <circle cx="1810" cy="160" r="5" />
+        <circle cx="1900" cy="70" r="5" />
+
+        <circle cx="2020" cy="420" r="5" />
+        <circle cx="2100" cy="340" r="5" />
+        <circle cx="2280" cy="340" r="5" />
+        <circle cx="2360" cy="260" r="5" />
+    </g>
+
+    <g fill="var(--svg-node)" opacity=".65">
+        <circle cx="150" cy="300" r="3" />
+        <circle cx="220" cy="230" r="3" />
+        <circle cx="370" cy="210" r="3" />
+        <circle cx="540" cy="140" r="3" />
+
+        <circle cx="580" cy="450" r="3" />
+        <circle cx="690" cy="340" r="3" />
+        <circle cx="850" cy="250" r="3" />
+        <circle cx="920" cy="180" r="3" />
+
+        <circle cx="1040" cy="450" r="3" />
+        <circle cx="1140" cy="370" r="3" />
+        <circle cx="1200" cy="100" r="3" />
+        <circle cx="1270" cy="30" r="3" />
+
+        <circle cx="1530" cy="220" r="3" />
+        <circle cx="1600" cy="150" r="3" />
+        <circle cx="1610" cy="470" r="3" />
+        <circle cx="1680" cy="400" r="3" />
+
+        <circle cx="1830" cy="110" r="3" />
+        <circle cx="1930" cy="350" r="3" />
+        <circle cx="2070" cy="190" r="3" />
+        <circle cx="2140" cy="120" r="3" />
+
+        <circle cx="2180" cy="420" r="3" />
+        <circle cx="2260" cy="340" r="3" />
+    </g>
+
+    <g
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1"
+        opacity=".45"
+    >
+        <rect x="70" y="70" width="40" height="40" rx="4" />
+        <rect x="700" y="370" width="55" height="30" rx="4" />
+        <rect x="1080" y="40" width="45" height="35" rx="4" />
+        <rect x="1450" y="410" width="50" height="35" rx="4" />
+        <rect x="1950" y="250" width="60" height="40" rx="4" />
+        <rect x="2280" y="80" width="45" height="35" rx="4" />
+    </g>
+
+    <g
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1"
+        opacity=".4"
+    >
+        <path d="M110 90 H140 V120" />
+        <path d="M755 385 H780 V410" />
+        <path d="M1125 57 H1150 V80" />
+        <path d="M1500 427 H1525 V450" />
+        <path d="M2010 270 H2035 V300" />
+        <path d="M2325 97 H2350 V120" />
+    </g>
+</svg>

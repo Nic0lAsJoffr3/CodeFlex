@@ -1,13 +1,21 @@
-@layer reset, layout, base, responsive;
+@layer reset, layout, base;
 
 :root {
     --GreenColor-main: #00ff15;
+    --GreenColor-dark: #00990d;
+    --GreenColor-darker: #006b09;
+
     --OrangeColor-main: #ff7b00;
+    --OrangeColor-dark: #cc5f00;
+    --OrangeColor-darker: #8f4200;
 
     --bg-primary: #0D1117;
     --bg-secondary: #161B22;
     --bg-tertiary: #21262D;
 
+    --svg-line: #FFFFFF0D;
+    --svg-detail: #FFFFFF18;
+    --svg-node: #6E7681;
 
     --text-primary: #F0F6FC;
     --text-secondary: #B1BAC4;
@@ -25,48 +33,100 @@
     --font-size-4xl: 36px;
     --font-size-5xl: 48px;
 
+    --font-pixel: "Press Start 2P", cursive;
+    --font-ui: "Inter", sans-serif;
+    --font-title: "Space Grotesk", sans-serif;
+
+    --radius-btn: 15px;
 }
 
 @layer reset {
-    * {
+    *,
+    *::before,
+    *::after {
         margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
 
-    body,
-    html {
-        padding: 0;
-        height: 300vh;
+    html,
+    body {
+        width: 100%;
+        min-height: 300%;
         scrollbar-width: none;
     }
+    button,
+    input,
+    textarea,
+    select {
+        font: inherit;
+    }
 
-    * {
-        color: var(--text-secondary);
+    button {
+        border: 0;
+        outline: none;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
     }
 }
 
 @layer layout {
     .Header {
-        background-color: red;
+        position: relative;
+        width: 100%;
         height: 150px;
+        overflow: hidden;
+        isolation: isolate;
+    }
 
+    .SVGBG {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
 
+        width: 2400px;
+        height: 500px;
     }
 
     .TitleLogo {
-        height: 150px;
         width: 100vw;
+        height: 150px;
     }
 
-    
+    .CoverMobile button {
+        position: absolute;
+        bottom: 10vh;
+        width: 80vw;
+        height: 10vw;
+        margin: 0 10vw;
+    }
+
+    .CoverMobile p {
+        margin-top: 20px;
+        padding: 0 10vw;
+    }
 }
 
 @layer base {
     body {
         background-color: var(--bg-primary);
+        color: var(--text-secondary);
+        font-family: var(--font-ui);
+    }
+
+    .SVGBG {
+        color: var(--svg-line);
+        pointer-events: none;
+        user-select: none;
     }
 
     .Header {
-        background-color: var(--bg-secondary);
+        background-image: linear-gradient(45deg, var(--bg-secondary), var(--bg-primary));
+        box-shadow: inset 0 -8px 12px -10px var(--GreenColor-dark);
     }
 
     .TitleLogo {
@@ -77,9 +137,11 @@
     .Title {
         overflow: hidden;
         white-space: nowrap;
-        animation: Title 2s ease-in-out 0s;
 
+        font-family: var(--font-title);
         font-size: var(--font-size-2xl);
+
+        animation: Title 2s ease-in-out;
     }
 
     h1,
@@ -88,10 +150,48 @@
         color: var(--text-primary);
     }
 
+    .CoverMobile p {
+        font-size: var(--font-size-sm);
+        text-align: justify;
+    }
+
+    .CoverMobile button {
+        background-color: var(--GreenColor-dark);
+        color: var(--text-primary);
+
+        border-radius: var(--radius-btn);
+
+        box-shadow:
+            -2px 2px 5px var(--GreenColor-darker);
+
+        font-family: var(--font-ui);
+        font-size: 4vw;
+
+        animation: ZoomEnter 1s ease-in-out;
+    }
+
+    .CoverMobile button:active {
+        background-color: var(--GreenColor-darker);
+        color: var(--text-tertiary);
+
+        box-shadow:
+            2px -2px 5px var(--GreenColor-dark);
+    }
 }
 
+@keyframes ZoomEnter {
+    0% {
+        transform: scale(0.5);
+    }
 
+    90% {
+        transform: scale(1.1);
+    }
 
+    100% {
+        transform: scale(1);
+    }
+}
 
 @keyframes Title {
     0% {

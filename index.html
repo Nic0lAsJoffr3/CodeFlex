@@ -2,34 +2,39 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodeFlex</title>
-    <link rel="stylesheet" href="./src/css/main.css">
-    <link rel="stylesheet" href="./src/css/responsive.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 
+<link rel="shortcut icon" href="./assets/ico/CodeFlex.ico" type="image/x-icon">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeFlex: Começar a aprender</title>
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+
+
 </head>
 
 <body>
-    <nav id="Header" class="Header" name="Header">
+    <header id="Header" class="Header" name="Header">
+        <div class="SVGBG"></div>
         <canvas id="TitleLogo" class="TitleLogo" name="TitleLogo"></canvas>
         <div class="PcOnly">
 
         </div>
-    </nav>
-    <div class="MobileOnly">
+    </header>
+    <div class="MobileOnly CoverMobile">
         <h2 class="Title">Aprenda. Divirta-se. Evolua.</h2>
         <p>O CodeFlex é uma plataforma gratuita para aprender programação de forma simples, prática e acessível.</p>
         <button type="button">Começar a aprender</button>
-
     </div>
 
+    <script type="module" src="./src/js/utils/HeaderSvg.js"></script>
     <script type="module" src="./src/js/utils/TitleLogo.js"></script>
     <script type="module" src="./src/js/Main.js"></script>
 
